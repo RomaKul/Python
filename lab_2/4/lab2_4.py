@@ -26,7 +26,7 @@ for(end, count) in cnt.most_common():
     if(re.match(pattern,word)):
       text+="(word= {0}, line= {1}, place= {2})".format(word, i, j)
 
-  ET.SubElement(child,"").text = text
+  ET.SubElement(child,"Word").text = text
 
 
 

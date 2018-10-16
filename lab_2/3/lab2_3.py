@@ -12,7 +12,7 @@ cnt = Counter(q)
 
 a.close()
 for (word, count) in cnt.most_common():
-    ET.SubElement(child,"").text = str(word)+ " appears: " + str(count) + " times"
+    ET.SubElement(child,"Word").text = str(word)+ " appears: " + str(count) + " times"
 
 tree = ET.ElementTree(root)
-tree.write("b.xml", encoding='utf-8')
+tree.write("2_2.xml", encoding='utf-8')
