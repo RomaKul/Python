@@ -1,3 +1,0 @@
-Hi! 
-My name is Roma. 
-I like python.
