@@ -27,6 +27,7 @@ for(end, count) in cnt.most_common():
       text+="(word= {0}, line= {1}, place= {2})".format(word, i, j)
 
   ET.SubElement(child,"Word").text = text
+  text=''
 
 
 
